@@ -1,16 +1,40 @@
 # Responsive Blazor School Management Interface
 
 ## P — Problem & constraints
-Deliver responsive school-management UI workflows with validation, reusable components and data-rich grids while integrating with a configurable API boundary.
+
+Deliver responsive school-management workflows with validation, reusable components and data-rich interfaces while integrating through a configurable API boundary.
 
 ## A — Architecture & decisions
-.NET 8 Blazor WebAssembly + Syncfusion UI + DTO/repository abstractions + configurable backend API.
+
+The private delivery uses .NET 8 Blazor WebAssembly, Syncfusion UI components, DTO/repository abstractions and a configurable backend API boundary. Reusable Razor components and shared layout/navigation patterns support the administrative workflows.
 
 ## C — Contribution & delivery
-Implemented student and parent forms, attendance/resource management, payment-record UI, responsive layout and reusable components.
+
+OSYSTIC implemented student and parent information workflows, attendance/resource screens, payment-record interfaces, reusable profile/tab components and responsive application layout/navigation.
+
+## Engineering highlights
+
+- Built reusable Blazor/Razor component patterns for repeated student, parent and profile workflows.
+- Used DTO/repository abstractions to keep UI components separated from backend API details.
+- Applied form validation and responsive layouts across administrative data-entry screens.
+- Used Syncfusion components for data-rich interface requirements while keeping commercial license material private.
+- Added CI restore/build validation and a guard ensuring the tracked Syncfusion configuration remains a placeholder rather than a real license key.
+
+## Technology stack
+
+- .NET 8
+- Blazor WebAssembly
+- C#
+- Razor components
+- Syncfusion UI
+- DTO / repository abstractions
+- Configurable backend API integration
+- GitHub Actions CI
 
 ## E — Evidence & outcomes
-Private source validates the application structure and buildable project configuration. Public proof excludes real educational/payment data and unsupported metrics.
+
+Private source, solution/project manifests and CI validate the buildable application structure, dependency stack and implemented UI architecture.
 
 ## Confidentiality
-Delivery source, student/client data, license keys and private APIs remain private.
+
+Delivery source, educational/payment data, Syncfusion license material, client identity and private API endpoints remain private.
